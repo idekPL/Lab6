@@ -28,16 +28,19 @@ switch(wybor)
 	case 1:
 		{
 		cout<<"a + b = "<<dodawanie(a, b);	
+		break;
 		}
 	
 	case 2:
 		{
-		cout<<"a - b = "<<odejmowanie(a, b);	
+		cout<<"a - b = "<<odejmowanie(a, b);
+		break;	
 		}	
 	
 	case 3:
 		{
 		cout<<"a * b = "<<mnozenie(a, b);	
+		break;
 		}
 		
 	case 4:
@@ -50,6 +53,7 @@ switch(wybor)
 			{
 			cout<<"Nie mo¿na dzieliæ przez 0"<<endl;	
 			}	
+		break;
 		}	
 	
 	case default:
