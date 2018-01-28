@@ -2,8 +2,10 @@
 
 using namespace std;
 
-double mnorzenie()
+double mnorzenie(int a, int b)
 {
+    double c;
+    c=a*b;
     cout << "Mnorzenie!" << endl;
-    return 0;
+    return c;
 }
