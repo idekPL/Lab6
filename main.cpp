@@ -42,7 +42,14 @@ switch(wybor)
 		
 	case 4:
 		{
-		cout<<"a / b = "<<dzielenie(a, b);	
+		if(b!=0)
+			{	
+			cout<<"a / b = "<<dzielenie(a, b);	
+			}
+		else
+			{
+			cout<<"Nie mo¿na dzieliæ przez 0"<<endl;	
+			}	
 		}	
 	
 	case default:
