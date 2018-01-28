@@ -2,7 +2,7 @@
 
 using namespace std;
 
-double mnorzenie(int a, int b)
+double mnorzenie(double a, double b)
 {
     double c;
     c=a*b;
