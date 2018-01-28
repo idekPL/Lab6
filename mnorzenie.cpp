@@ -2,8 +2,8 @@
 
 using namespace std;
 
-int main()
+double mnorzenie()
 {
-    cout << "Hello world!" << endl;
+    cout << "Mnorzenie!" << endl;
     return 0;
 }
