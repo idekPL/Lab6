@@ -8,7 +8,7 @@
 
 using namespace std;
 double a, b;
-int wybor;
+int wybor, d;
 
 int main()
 {
@@ -27,22 +27,22 @@ switch(wybor)
 	{
 	case 1:
 		{
-			
+		cout<<"a + b = "<<dodawanie(a, b);	
 		}
 	
 	case 2:
 		{
-			
+		cout<<"a - b = "<<odejmowanie(a, b);	
 		}	
 	
 	case 3:
 		{
-			
+		cout<<"a * b = "<<mnozenie(a, b);	
 		}
 		
 	case 4:
 		{
-			
+		cout<<"a / b = "<<dzielenie(a, b);	
 		}	
 	
 	case default:
