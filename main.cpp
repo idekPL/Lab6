@@ -14,7 +14,10 @@ int main()
 {
 cout<<"LAborka 6 - kalkulator"<<endl;
 cout<<"Wybierz opcjê: 1 - dodawanie; 2 - odejmowanie; 3 - mno¿enie; 4 - dzielenie"<<endl;
-cin>>wybor;	
+cin>>wybor;
+
+back:
+	
 cout<<"Podaj a: "; 	
 cin>>a;
 cout<<endl<<"Podaj b: ";	
@@ -44,7 +47,13 @@ switch(wybor)
 	
 	case default:
 		{
-		cout<<"Z³y wybór opcji!!!"<<endl;	
+		cout<<"Z³y wybór opcji!!!"<<endl;
+		cout<<"Chcesz powtórzyæ program? 1 - tak; 2 - nie"<<endl;
+		cin>>d;
+		if(d==1)
+			{
+			go to back;	
+			}	
 		}		
 	}
 cout<<"Koniec programu";	
