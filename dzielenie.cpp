@@ -9,3 +9,9 @@ double dzielenie (double a,double b){
 	}
 	return 	a/b;
 }
+
+/*
+lista zwracanych wartosci
+
+-1 zwracana jako wynik dzialania albo gdzy argument b jest rowny 0
+*/
